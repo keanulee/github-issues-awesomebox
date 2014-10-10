@@ -6,7 +6,11 @@
 
   "options_page": "options/options.html",
 
-  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["storage", "identity"],
 
   "content_scripts": [
     {
